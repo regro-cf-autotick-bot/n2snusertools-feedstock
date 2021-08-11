@@ -1,5 +1,5 @@
 {% set name = "N2SNUserTools" %}
-{% set version = "0.3.6" %}
+{% set version = "0.3.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e89c33b22cc843477c8072a6fbbf290ba47d904fa1f178887ca395ad5a8134df
+  sha256: 5612f1d0c31c1bd0c4f0c493236610b988291800d07862d5e6427aa162964468
 
 build:
   noarch: python
