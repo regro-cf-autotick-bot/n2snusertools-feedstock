@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - n2sn_add_user = N2SNUserTools.cli:n2sn_add_user
@@ -25,6 +25,7 @@ requirements:
     - pip
   run:
     - python >=3.6
+    - krb5
     - ldap3
     - prettytable
     - python-gssapi
